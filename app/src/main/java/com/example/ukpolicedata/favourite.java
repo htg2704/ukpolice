@@ -1,6 +1,6 @@
 package com.example.ukpolicedata;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class favourite extends AppCompatActivity {

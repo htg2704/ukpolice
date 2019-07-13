@@ -1,7 +1,7 @@
 package com.example.ukpolicedata;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -17,7 +17,7 @@ EditText lon,lat;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-        spinner = findViewById(R.id.spinner);
+
         lon = findViewById(R.id.lon);
         lat = findViewById(R.id.lat);
         button = findViewById(R.id.button);
